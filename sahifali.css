@@ -1,0 +1,183 @@
+body, h1, h2, h3, ul, p {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: #35424a;
+	border-bottom: 4px solid coral;
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+}
+
+#header h1 {
+	color: #fff;
+	font-family: sans-serif;
+	padding: 15px, 0;
+	margin: 15px;
+	display: inline-block;
+}
+
+#logo {
+	color: coral;
+}
+
+.navbar {
+	list-style-type: none;
+	float: right;
+
+}
+
+ul.navbar li {
+	display: inline;
+	
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 25px 15px;s
+	margin-top: 15px;
+	display: inline-block;
+
+}
+
+.navbar li a:hover {
+	color: pink;
+}
+
+#banner {
+	height: 60vh;
+	background-image: url(rasm.jfif);
+	background-size: cover;
+	background-position: center -200px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff
+	
+}
+
+#banner h1 {
+	font-size: 50px;
+	margin-bottom: 25px;
+	padding-top: 150px;
+}
+
+#newsletter {
+	background-color: #35424a;
+	color: #fff
+	font-family: sans-serif;
+	display: inline-block;
+	width: 100%;
+	padding: 15px; 0
+	
+}
+#newsletter .left {
+	float: left;
+	color: #fff
+}
+
+#newsletter .right{
+	float: right;
+
+}
+
+#newsletter input {
+	padding: 5px;
+	font-size: 15px;
+
+}
+
+.button {
+	background-color: coral;
+	color: #fff;
+	padding: 5px 15px;
+	margin-left: 2px;
+}
+
+#course {
+	padding: 30px 0;
+}
+
+.box {
+	text-align: center;
+	width: 33.3%;
+	float: left;
+	font-family: sans-serif;
+	
+}
+
+.box img {
+	max-width: 100%;
+	width: 150px;
+
+}
+
+#footer {
+	background-color: coral;
+	text-align: center;
+	font-family: sans-serif;
+	padding: 35px 0;
+	margin-top: 50px;
+}
+.clr {
+	clear: both;
+}
+
+#about-us {
+	font-family: sans-serif;
+	padding: 30px 0;
+}
+
+.bg-dark {
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff
+	 ;
+	
+}
+
+.main-c {
+	width: 65%;
+	float: left;
+
+}
+
+.sidebar {
+	width: 30%;
+	float: right;
+}
+
+.service-box {
+	background-color: #9999;
+	margin: 3px;
+	padding: 40px;
+	border: 2px solid #555;
+	width: 90%;
+	float: left; 
+
+} 
+
+.service-box p {
+	font-size: 15px;
+
+}
+
+label {
+	display: block;
+	margin: 7px 0;
+}
+
+.form-input, textarea {
+	width: 100%;
+	padding: 8px 0;
+
+}
+
+.active {
+	color: coral !important;
+}
